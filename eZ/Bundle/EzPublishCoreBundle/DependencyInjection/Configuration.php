@@ -219,7 +219,7 @@ EOT;
                                     function ( $v )
                                     {
                                         if (empty($v)) {
-                                            return false;
+                                            return true;
                                         }
                                         $basename = basename( $v );
                                         // If there is a space in the basename, just drop it and everything after it.
